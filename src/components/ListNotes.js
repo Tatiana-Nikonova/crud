@@ -46,7 +46,9 @@ function ListNotes() {
         await update();
     };
 
-    useEffect(update);
+    useEffect(() => {
+		update()
+	});
 
     return (
         <div className={"main"}>
