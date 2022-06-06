@@ -46,7 +46,7 @@ function ListNotes() {
 		await update();
 	};
 
-	useEffect(() => {
+    useEffect(() => {
 		update()
 	});
 
